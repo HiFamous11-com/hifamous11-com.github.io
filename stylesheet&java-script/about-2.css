@@ -1,0 +1,56 @@
+@import url("icon.css");
+@import url("waves.svg");
+@import url("steps.svg");
+@import url("nav.css");
+@import url("sword.png");
+
+html {
+    scroll-behavior: smooth;
+    scrollbar-arrow-color: rgba(190, 0, 0, 0.595);
+    scrollbar-color: rgb(0, 0, 0) rgb(127, 210, 255);
+}
+
+body {
+    background-image: url("https://picsum.photos/1920/1080");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+}
+
+li {
+    color: antiquewhite;
+}
+
+h1 {
+    font-size: 2.00rem;
+    color: antiquewhite;
+    text-align: center;
+}
+
+a {
+    color: antiquewhite;
+    font-size: 1.50rem;
+    text-decoration: none;
+}
+
+a:hover {
+
+}
+
+p {
+    margin: 8px;
+    color: antiquewhite;
+}
+
+.text-divider {
+    background-color: rgba(0, 255, 255, 0.507);
+    background-image: url("blurry-gradient-haikei.svg");
+    background-size: cover;
+    border-radius: 10px;
+    border-style: outset;
+    border-color: rgba(0, 255, 255, 0.667);
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 9rem;
+}

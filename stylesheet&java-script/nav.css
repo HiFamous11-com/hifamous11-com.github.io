@@ -1,0 +1,113 @@
+.nav {
+    margin: 0;
+    padding: 0px 0px;
+    overflow: hidden;
+    background-color: rgba(87, 15, 255, 0.623);
+    position: -webkit-sticky; /*safari*/
+    position: sticky;
+    top: 0;
+  }
+  
+.list-left {
+    float: left;
+  }
+
+.list-right {
+    float: right;
+}
+
+.list img {
+    display: block;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0);
+    background-size: cover;
+}
+
+.text {
+  display: block;
+  text-align: center;
+  padding: 19.2px 15.5px;
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(13, 12, 20);
+}
+
+.list img:hover {
+    transition: 400ms all ease-in-out;
+    background-color: rgba(255, 255, 255, 0.419);
+    cursor: pointer;
+    padding: 7.0px 5px;
+}
+
+.list img:hover::after {
+    transition: 400ms all ease-in-out;
+    background-color: aliceblue;
+}
+  
+.list a {
+    display: block;
+    border: 0.1px;
+    border-color: rgba(0, 0, 0, 0.533);
+    border-style: solid;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.628);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.list a:hover {
+    transition: 400ms all ease-in-out;
+    background-color: rgba(255, 0, 0, 0.586);
+    background-image: none;
+    transition: 400ms all ease-in-out;
+  }
+
+.list .text:hover {
+  background-color: rgba(213, 232, 240, 0.557);
+  border: 2px;
+  border-color: rgba(213, 232, 240, 0.557);
+  border-style: solid;
+  cursor: pointer;
+  transition: 300ms all ease-in-out;
+}
+  
+  .active {
+    background-image: url("blob-scene.svg");
+    background-size: cover;
+  }
+/*-------------------just for test lol--------------------*/
+nav {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.375),rgba(0, 0, 0, 0.367));
+    margin: 0;
+    padding: 0px 0px;
+    top: 0;
+    overflow: hidden;
+    position: sticky;
+    position: -webkit-sticky;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+  }
+
+nav a:hover {
+    background-color: rgba(17, 17, 17, 0.4);
+    transition: 400ms all ease-in-out;
+  }
+
+nav .nav-left {
+    text-align: left;
+    position: absolute;
+    left: 1rem;
+}
+
+nav .nav-right {
+    text-align: right;
+    position: absolute;
+    right: 1rem;
+}

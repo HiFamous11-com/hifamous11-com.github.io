@@ -1,0 +1,4 @@
+    color: rgba(144, 255, 255, 0.788);
+    transition: 400ms all ease-in-out;
+    font-size: 1.55rem;
+    background-color: rgb(68, 68, 68);

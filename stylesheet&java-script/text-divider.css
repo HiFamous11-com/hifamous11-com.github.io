@@ -1,0 +1,10 @@
+.text-divider {
+    background-color: rgba(0, 255, 255, 0.507);
+    background-image: url("blurry-gradient-haikei.svg");
+    background-size: cover;
+    border-radius: 10px;
+    border-style: outset;
+    border-color: rgba(0, 255, 255, 0.667);
+    margin-left: 5rem;
+    margin-right: 5rem;
+}

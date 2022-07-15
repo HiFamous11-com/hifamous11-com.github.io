@@ -1,0 +1,28 @@
+.icon {
+    text-align: center;
+    src: url("");
+    width: 10rem;
+    height: 10rem;
+}
+
+.icon:hover {
+    transition: 300ms all ease-in;
+    background-color: rgba(252, 252, 252, 0.113);
+    border: 0.5px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: antiquewhite;
+    padding: 1px 1px;
+    cursor: pointer;
+}
+
+.icon:hover ::after {
+    background-color: rgba(255, 255, 255, 0);
+    transition: 300ms all ease-out;
+}
+
+.nav-icon {
+    width: 3rem;
+    height: 3rem;
+    padding: 3px 3px;
+}
