@@ -44,3 +44,81 @@ p {
     margin: 8px;
     color: antiquewhite;
 }
+
+/*----*/
+
+.holder {
+    background-color: rgba(0, 255, 255, 0.507);
+    background-image: url("https://source.unsplash.com/random/1920x1080/?black");
+    background-size: cover;
+    border-radius: 10px;
+    border-style: outset;
+    border-color: rgba(0, 98, 255, 0.482);
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+
+.holder p {
+    text-align: center;
+    text-decoration: rgb(111, 111, 255);
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.holder p:hover {
+    text-decoration: overline;
+    transition: 400ms;
+}
+
+.holder h1 {
+    text-align: center;
+}
+
+.holder h4 {
+    margin-left: 0.5rem;
+    list-style-type: disc;
+    list-style-position: inside;
+    font-size: 20px;
+    text-rendering: auto;
+    color: antiquewhite;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: rgba(65, 65, 65, 0.504);
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: blue;
+    border-radius: 15px;
+    border-image: initial;
+}
+
+.holder h4:hover {
+    color: rgba(0, 8, 160, 0.74);
+    background-color: rgba(250, 235, 215, 0.558);
+    transition: 400ms;
+    cursor: pointer;
+}
+
+.github {
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 15px;
+    border: 0.35rem;
+    border-style: outset;
+    margin-bottom: 1rem;
+}
+
+.github:hover {
+    border-color: rgba(152, 152, 255, 0.616);
+    border-style: inset;
+    cursor: pointer;
+    transition: 400ms;
+}
