@@ -122,3 +122,66 @@ p {
     cursor: pointer;
     transition: 400ms;
 }
+
+.button {
+    all: unset;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0.6rem 2rem;
+    border: mediumspringgreen solid 0.15rem;
+    border-radius: 0.25rem;
+    color: rgb(216, 240, 231);
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    overflow: hidden;
+    transition: border 300ms, color 300ms;
+    user-select: none;
+  }
+  
+  .button p {
+    z-index: 1;
+  }
+  
+  .button:hover {
+    color: #080061;
+  }
+  
+  .button:active {
+    border-color: rgb(255, 0, 0);
+  }
+  
+  .button::after, .button::before {
+    content: "";
+    position: absolute;
+    width: 9rem;
+    aspect-ratio: 1;
+    background: mediumspringgreen;
+    opacity: 50%;
+    border-radius: 50%;
+    transition: transform 500ms, background 300ms;
+  }
+  
+  .button::before {
+    left: 0;
+    transform: translateX(-8rem);
+  }
+  
+  .button::after {
+    right: 0;
+    transform: translateX(8rem);
+  }
+  
+  .button:hover:before {
+    transform: translateX(-1rem);
+  }
+  
+  .button:hover:after {
+    transform: translateX(1rem);
+  }
+  
+  .button:active:before,
+  .button:active:after {
+    background: rgb(0, 255, 255);
+  }

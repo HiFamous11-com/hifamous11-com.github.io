@@ -1,0 +1,11 @@
+ .modal_spinner{
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    border-color: #e00083 transparent;
+    border-style: solid;
+    border-width: 10px;
+    -webkit-animation: lds-dual-ring 1.8s linear infinite;
+    animation: lds-dual-ring 1.8s linear infinite;
+      }

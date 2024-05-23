@@ -3,6 +3,7 @@
 @import url("steps.svg");
 @import url("nav.css");
 @import url("sword.png");
+@import url("spinner.css");
 
 html {
     scroll-behavior: smooth;
